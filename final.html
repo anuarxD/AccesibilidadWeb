@@ -3,52 +3,63 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Accesibilidad WEB</title>
-    <link href="styles.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap" rel="stylesheet"/>
+    <title>Mi Portafolio</title>
+    <link href="final.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <div class="header-img"></div>
-    <div class="header">Anuar Rodriguez Medina</div>
-    <div class="subtitle">Fullstack in training </div>
-    <div class="subicon">
-    <img src="images/html.png" alt="">
-    <img src="images/css.png" alt="">
-    <img src="images/js.png" alt="">  
-    </div>
-    <div class="navigation">
-      <div class="nav-item">Acerca de</div>
-      <div class="nav-item">Mis Proyectos</div>
-      <div class="nav-item">Contacto</div>
-    </div>
+    <a href="#main" class="skip-link">Saltar al contenido</a>
+    <header>
+    <img src="images/juliana.jpeg" alt="Juliana Gomez" class="header-img" />
+    <h1 class="header">Juliana Gomez</h1>
+    <h2 class="subtitle">Front End Developer</h2>
+    <nav>
+      <ul class="navigation">
+        <li class="nav-item"><a href="/acerca-de">Acerca de</a></li>
+        <li class="nav-item"><a href="/proyectos">Mis Proyectos</a></li>
+        <li class="nav-item"><a href="/contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="intro">
-      Hola! Soy Anuar 👋 Soy mexicano, me encanta aprender cosas nuevas y desarrollar nuevas habilidades 
-      <br>
-      Después de estudiar Lic. en Contabilidad y Finanzas en la universidad, logré entrar a mi primer trabajo, ahí estuve en varias áreas, hasta que aprendí conocimientos básicos de programación. 
-      <br>
-Llevo pocos meses enfocándome en front end y back end, específicamente en JavaScript, HTML, CSS, PHP y MySQL. Sueño con poder construir desde cero páginas web y sistemas complejo 
-Aquí puedes ver algunos de mis proyectos recientes y también puedes contactarme por si quieres hablar de tecnología, accesibilidad o comida!
-
-      <div class="social-media">
-        <div>
-          <a href="https://twitter.com/anuarxD" target="_blank"
-            ><img src="images/twitter.png"
-          /></a>
-        </div>
-        <div>
-          <a href="https://anuarxd.github.io/" target="_blank"
-            ><img src="images/github-logo.png"
-          /></a>
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/anuar-rodriguez/" target="_blank"
-            ><img src="images/linkedin.png"
-          /></a>
-        </div>
-      </div>
-    </div>
+  <main id="main">
+    <section>
+      <h2 class="header">Acerca de</h2>
+      <p class="intro">
+      Hola! Soy Juliana 👋 Soy Colombo-Canadiense, amo los gatos y tambien crear
+      cosas lindas para la web 😍 Después de estudiar comunicación social y
+      ciencia política en la universidad, trabajé varios años en mercadeo
+      digital hasta que aprendí a programar. Llevo un poco más de tres años
+      enfocándome en front end, específicamente en JavaScript y accesibilidad.
+      Sueño con una web donde todo el mundo pueda participar. Aquí puedes ver
+      algunos de mis proyectos recientes y también puedes contactarme por si
+      quieres hablar de tecnología, accesibilidad o gatos!</p>
+      <ul class="social-media">
+        <li>
+          <a href="https://twitter.com/gmzjuliana" target="_blank"
+            ><img src="images/twitter.png" alt="Twitter"
+          />
+        <p class="social-link-text">Twitter</p>
+        </a>
+        </li>
+        <li>
+          <a href="https://github.com/gmzjuliana" target="_blank"
+            ><img src="images/github-logo.png" alt="GitHub"
+          />
+          <p class="social-link-text">GitHub</p></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/gomezjuliana/" target="_blank"
+            ><img src="images/linkedin.png" alt="LinkedIn"
+          />
+          <p class="social-link-text">LinkedIn</p></a>
+        </li>
+      </ul>
+    </section>
 
     <section>
       <h2 class="header">Mis Proyectos</h2>
